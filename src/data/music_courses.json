@@ -1,0 +1,87 @@
+{
+    "courses": [
+      {
+        "id": 1,
+        "title": "Guitar Fundamentals",
+        "slug": "guitar-fundamentals",
+        "description": "Learn the basics of playing guitar with our comprehensive beginner's course.",
+        "price": 99.99,
+        "instructor": "John Doe",
+        "isFeatured": true,
+        "image": "https://images.openai.com/static-rsc-4/1HZvhWlrkNGY6JPJxKOcn0jXR9SyjhyJfzfamEoQVo5DCMDiPjIp8Bsdr9-5pnAbERU4H1GTLtMoo3irUevn-6A1OD4a4PweIf9ZrObwu2Shz8hTFMVEWWSgRWK6aRoMH6aHbeLQHeBgqhMoFSRTpQOBBHu4pBwtD42ujL2L4rDoZbKuKJ3hd4n9aiNAXIAI?purpose=inline" 
+      },
+      {
+        "id": 2,
+        "title": "Piano for Beginners",
+        "slug": "piano-for-beginners",
+        "description": "Start your musical journey with foundational piano skills taught by expert instructors.",
+        "price": 109.99,
+        "instructor": "Jane Smith",
+        "isFeatured": true,
+        "image": "https://images.openai.com/static-rsc-4/AKV_H_DEmjKzS-ifHpfkgYO2dt2QrL-DqjLJ4A-QuhkyBfzYYVX-HCfCA0ysfRG97AIELY__2pGa-7FZ3g4Nhb1EOLmIslHZgvrp2zwKG1-Dq3A0Awoeeq5P2C83kMxoSyH5Ei3KLghz2SBUceNRINu8EN0tIh2HtkL0AleUoU63D8q4fnZYJbNnz9uol_wi?purpose=inline" 
+      },
+      {
+        "id": 3,
+        "title": "Advanced Vocal Techniques",
+        "slug": "advanced-vocal-techniques",
+        "description": "Enhance your singing with advanced vocal techniques for intermediate to advanced learners.",
+        "price": 119.99,
+        "instructor": "Emily Johnson",
+        "isFeatured": true,
+        "image": "https://images.openai.com/static-rsc-4/cCpLiZfROqHIJjinPq6gCk19dBZJ3D52syfdmMM9C7VMd1e87InzfjGex6JUsW5pkFtK7TeFQIgEywym6MqBZdVBSYrYaikWkjlpzZ0kj4CNnGgJ4x_hI_ZS36LqlX-xPWuWolEWFK9qJwEamyfNpSb5MJPBHVgtccNIOXwT1Uk?purpose=inline" 
+      },
+      {
+        "id": 4,
+        "title": "Drumming Mastery",
+        "slug": "drumming-mastery",
+        "description": "Master the drums with our comprehensive course covering all skill levels.",
+        "price": 129.99,
+        "instructor": "Mike Brown",
+        "isFeatured": false,
+        "image": "https://images.openai.com/static-rsc-4/kesQ2XrWxOuxV4FwzxzrOMT3_qUcXMMyK1lCysl-LgjtoAvtqIXJgJI94JLeBB7xE3BlzEWBRxVNWumYc2JyAl7IiOXt_K5oB9fCg-1ophilPajX_A5F_UX3lGAIa-z67iilThqLo_O8ofvMQXpt9cSg6E7uLidAXgfmVG9Il87A4_FVwXICV9SBmmas0vQB?purpose=inline"
+      },
+      {
+        "id": 5,
+        "title": "Jazz Improvisation",
+        "slug": "jazz-improvisation",
+        "description": "Learn the art of jazz improvisation with this course designed for all levels.",
+        "price": 139.99,
+        "instructor": "Chris Davis",
+        "isFeatured": true,
+        "image": "https://images.openai.com/static-rsc-4/DMJsYbaEXTOPBWC-GQl5qxTZ7cZf3SG7VV8jlQg-MvAnlM6Qhvz79H9G-W0Pt5HeQet5y4m7W7ORCpjIQpIIrPG0KBOH9eJyAOHUsEQ1H3Sn175fdcDqleKL6Fjrv_lqYXRkm9It42Gja4jefOZ0G3hOleSqqzJugrif3b-v7fA?purpose=inline"
+      },
+      {
+        "id": 6,
+        "title": "Music Production Fundamentals",
+        "slug": "music-production-fundamentals",
+        "description": "Dive into music production with this introductory course on the basics of sound engineering and mixing.",
+        "price": 149.99,
+        "instructor": "Alex Wilson",
+        "isFeatured": true,
+        "image": "https://images.openai.com/static-rsc-4/RoGhX74BWC3bWJJNYADbQXfNCfMLeAfV-fWAvYjsPDEmGsKlnhTk6JT7OHZgsG9qk7Amg9YtNJvfcQBfswBBhpJqawJT00cJigET-SeVU-5ZWzUrzdCaYyuvAv4YzuAzfL45tVMEsg_TOJkI-6bDxsXFDGGErfZp9OQgNdriCJHXnFhNlTMas1S45-LJ8imB?purpose=inline"
+      },
+        {
+
+        "id": 7,
+        "title": "Songwriting Essentials",
+        "slug": "songwriting-essentials",
+        "description": "Learn the essentials of songwriting to express your musical creativity.",
+        "price": 159.99,
+        "instructor": "Samantha Miller",
+        "isFeatured": false,
+        "image": "https://images.openai.com/static-rsc-4/EGqfFJ15OQomp1BVASCi7-DHqrXstbzsbr2M5aVARZ55NAeRPsVnV9WTbVVe99l8LS5RdadOmY-gu-Rgr7dAHXCYOu1_a8gZDhZZZ7SzHFItcfRnRurJIVF5pXqQTd4YLOt7e9KK-bKKxES27SRIBlaZaMveoVocPUfDJbI6jt4?purpose=inline"
+      },
+      {
+        "id": 8,
+        "title": "Electronic Music Production",
+        "slug": "electronic-music-production",
+        "description": "Create compelling electronic music with our course designed for beginners to advanced users.",
+        "price": 169.99,
+        "instructor": "Luke Harris",
+        "isFeatured": true,
+        "image": "https://images.openai.com/static-rsc-4/_CMjykdtgmj4MCIMl0eDBDpInOMkfaWPIXlYLItxLk4GICGEf8ZVpT547iZUgdsyjhR4ciCde_w2L3cUYTXv0qv6JR7-zmpg6jIRCqqSkDPnKFOfgoVjekakzt0ejA-HdlgWuXJpNAgAjmHC8Bfc7JUyopj5NOwGwXwZL3HiHCVsXLg1ZsL3WKgC1PsazzlA?purpose=inline"
+      }
+      
+    ]
+  }
+  
