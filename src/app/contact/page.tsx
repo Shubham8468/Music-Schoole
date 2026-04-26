@@ -11,17 +11,17 @@ const Contact = () => {
         console.log('Submitted:', { email, message });
     };
     return (
-        <div className="h-[48rem] w-auto  ">
+        <div className="mb-0 h-[38rem]  sm:h-[40rem] ">
             <BackgroundLines >
-                <div className="min-h-sceen bg-black py-2 w-full pt-36">
+                <div className="min-h-sceen bg-black py-2 md:pb-30 w-full pt-36 pb-10">
                     {/* <h1 className="sm:text-6xl text-3xl font-bold text-center text-neutral-300">Contact us</h1> */}
                     <div className="max-w-2xl mx-auto p-4 relative z-10">
                         {' '}
                         {/* Add relative and z-10 to bring content to the front */}
                         <h1 className="text-lg md:text-7xl text-center font-sans font-bold mb-8 text-white">
                             Contact Us
-                        </h1>
-                        <p className="text-neutral-500 max-w-lg mx-auto my-2 text-sm text-center">
+                         </h1>
+                        <p className="text-neutral-400 max-w-lg mx-auto my-2 text-sm text-center">
                             We&apos;re here to help with any questions about our courses,
                             programs, or events. Reach out and let us know how we can assist you
                             in your musical journey.
@@ -32,20 +32,20 @@ const Contact = () => {
                                 value={email}
                                 onChange={(e) => setEmail(e.target.value)}
                                 placeholder="Your email address"
-                                className="rounded-lg border border-neutral-800 focus:ring-2 focus:ring-teal-500 w-full p-4 bg-neutral-950 placeholder:text-neutral-700"
+                                className="rounded-lg border border-neutral-700 focus:ring-2 focus:ring-teal-500 w-full p-4 bg-black text-white placeholder:text-neutral-600"
                                 required
                             />
                             <textarea
                                 value={message}
                                 onChange={(e) => setMessage(e.target.value)}
                                 placeholder="Your message"
-                                className="rounded-lg border border-neutral-800 focus:ring-2 focus:ring-teal-500 w-full p-4 bg-neutral-950 placeholder:text-neutral-700"
+                                className="rounded-lg border border-neutral-700 focus:ring-2 focus:ring-teal-500 w-full p-4 bg-black text-white placeholder:text-neutral-600"
                                 rows={5}
                                 required
                             ></textarea>
                             <button
                                 type="submit"
-                                className="px-6 py-2 rounded-lg bg-teal-500 text-white font-medium hover:bg-teal-600 focus:outline-none focus:ring-2 focus:ring-teal-500 focus:ring-offset-2"
+                                className="px-6 py-2 rounded-lg bg-teal-500 text-white font-medium hover:bg-teal-600 focus:outline-none focus:ring-2 focus:ring-teal-500"
                             >
                                 Send Message
                             </button>

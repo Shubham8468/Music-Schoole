@@ -75,7 +75,7 @@ const UpComingVebinar = () => {
                         <Button
                             as="div"
                             borderRadius="1.80rem"
-                            className="bg-neutral-300 text-black font-bold rounded-md dark:border-slate-800 hover:bg-netural-200 "
+                            className="bg-black text-white font-bold rounded-md border-slate-800"
                         >
                             View All webinar
                         </Button>

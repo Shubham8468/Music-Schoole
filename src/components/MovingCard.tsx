@@ -47,7 +47,7 @@ export function MusicSchoolTestimonials() {
                 )}
 
             >
-                 <h2 className="text-center text-neutral-300 text-2xl md:text-6xl font-bold py-20 md:py-45">Hear our Harmony: Voices of Success</h2>
+                 <h2 className="text-center text-black dark:text-neutral-300 text-2xl md:text-6xl font-bold py-20 md:py-45">Hear our Harmony: Voices of Success</h2>
                 </div> 
             <div className="">
             <h2 className="text-center text-neutral-300 text-2xl md:text-6xl font-bold py-20 md:py-45">Hear our Harmony: Voices of Success</h2>

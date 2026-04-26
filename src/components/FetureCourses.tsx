@@ -41,23 +41,23 @@ const FeatureCourse = () => {
                 {
                     featuredCoures.map((course: Course) => (
                         <div key={course.id} className="flex justify-center mt-10">
-                            <BackgroundGradient className="rounded-[22px] max-w-sm p-4 sm:p-5 bg-white dark:bg-zinc-900 ">
-                                <p className="text-base sm:text-xl text-black mt-4 mb-2 dark:text-neutral-200">
+                            <BackgroundGradient className="rounded-[22px] max-w-sm p-4 sm:p-5 bg-zinc-900">
+                                <p className="text-base sm:text-xl text-neutral-200 mt-4 mb-2">
                                     {course.title}
                                 </p>
 
 
-                                <p className="text-sm text-neutral-600 dark:text-neutral-400">
+                                <p className="text-sm text-neutral-400">
 
                                     {course.description}
                                 </p>
-                                <p className="text-base sm:text-sm text-black mt-4 mb-2 dark:text-neutral-200">
+                                <p className="text-base sm:text-sm text-neutral-200 mt-4 mb-2">
                                     Course Instructor
                                 </p>
-                                <p className="text-sm text-neutral-600 dark:text-neutral-400 mt-1 px-2">
+                                <p className="text-sm text-neutral-400 mt-1 px-2">
                                     {course.instructor}
                                 </p>
-                                <button className="rounded-full pl-4 pr-1 py-1 text-white flex items-center space-x-1 bg-black mt-4 text-xs font-bold dark:bg-zinc-800">
+                                <button className="rounded-full pl-4 pr-1 py-1 text-white flex items-center space-x-1 bg-black mt-4 text-xs font-bold">
                                     <span>Price </span>
                                     <span className="bg-zinc-700 rounded-full text-[0.6rem] px-2 py-0 text-white">
                                         ₹ {course.price}
@@ -80,7 +80,7 @@ const FeatureCourse = () => {
                     <Button
                         as="div"
                         borderRadius="1.80rem"
-                        className="bg-neutral-300 text-black font-bold rounded-md dark:border-slate-800 hover:bg-netural-200 "
+                        className="bg-black text-white font-bold rounded-md border-slate-800"
                     >
                         View All course
                     </Button>
