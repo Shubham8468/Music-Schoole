@@ -24,7 +24,7 @@ const Page = () => {
                                     translateZ="60"
                                     className="text-neutral-300 text-sm max-w-sm mt-2 dark:text-neutral-300"
                                 >
-                                   {course.description}
+                                    {course.description}
                                 </CardItem>
                                 <CardItem translateZ="100" className="w-full mt-4">
                                     <img
@@ -48,11 +48,13 @@ const Page = () => {
                                     <CardItem
                                         translateZ={20}
                                         as="button"
-                                        href=""
+                                        href="https://github.com/Shubham8468/Music-Schoole"
                                         className="px-4 py-2 rounded-xl bg-black dark:bg-white dark:text-black text-white text-xs font-bold"
                                     >
-                                       Buy now
-                                    </CardItem>
+                                        Buy now
+                                    </CardItem>                                    git add .
+                                    git commit -m "Prepare for Vercel deployment"
+                                    git push origin main
                                 </div>
                             </CardBody>
                         </CardContainer>

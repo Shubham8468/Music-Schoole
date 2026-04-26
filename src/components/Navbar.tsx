@@ -22,13 +22,13 @@ function Navbar({ className }: { className?: string }) {
         </div>
         <div onClick={() => handleNavigation("/course")} className="cursor-pointer">
           <MenuItem setActive={setActive} active={active} item="Our Courses">
-            <div className="flex gap-12">
+            {/* <div className="flex gap-12">
               <HoveredLink href="/course" > All Course</HoveredLink>
               <HoveredLink href="/course" > Basic Music Theory</HoveredLink>
               <HoveredLink href="/course" >Advanced Compositio</HoveredLink>
               <HoveredLink href="/course" >Songwriting</HoveredLink>
               <HoveredLink href="/course" >Music Production</HoveredLink>
-            </div>
+            </div> */}
           </MenuItem>
 
 
