@@ -25,7 +25,7 @@ const FeatureCourse = () => {
     const featuredCoures = courseData.courses.filter((course: Course) => course.isFeatured);
 
     return (
-        <div className="h-full w-full mt-10 px-10 ">
+        <div className="h-full w-full mt-10 px-9 ">
              
             <div className="w-full mt-0">
                 <div className="text-center px-4">
@@ -63,7 +63,7 @@ const FeatureCourse = () => {
                                         ₹ {course.price}
                                     </span>
                                 </button>
-                                <Link href={`/courses/${course.slug}`}>
+                                <Link href={`/course`}>
                                     <p className="text-blue-100 front-bold mt-5 px-2 text-center text-sm"> Learn More</p>
                                 </Link>
                             </BackgroundGradient>
